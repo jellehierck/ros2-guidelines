@@ -1,6 +1,6 @@
 ---
 publish: true
-title:
+title: 
 description: 
 permalink: 
 aliases: 

@@ -9,35 +9,6 @@ created: 2025-05-05
 modified: 2025-05-05
 ---
 
-- [[#Related documentation|Related documentation]]
-- [[#Background|Background]]
-- [[#Messages|Messages]]
-- [[#Services|Services]]
-- [[#Actions|Actions]]
-- [[#Custom interfaces|Custom interfaces]]
-	- [[#Custom interfaces#Do I need a custom interface?|Do I need a custom interface?]]
-	- [[#Custom interfaces#Designing meaningful interfaces|Designing meaningful interfaces]]
-		- [[#Designing meaningful interfaces#Use semantic names|Use semantic names]]
-		- [[#Designing meaningful interfaces#Interfaces should represent physical objects or concepts|Interfaces should represent physical objects or concepts]]
-		- [[#Designing meaningful interfaces#Use sub-messages for complex concepts|Use sub-messages for complex concepts]]
-		- [[#Designing meaningful interfaces#Combine all related data into a single interface|Combine all related data into a single interface]]
-		- [[#Designing meaningful interfaces#Use comments to document|Use comments to document]]
-	- [[#Custom interfaces#Fields|Fields]]
-		- [[#Fields#Field types|Field types]]
-		- [[#Fields#Strings|Strings]]
-		- [[#Fields#Complex types (nested interfaces)|Complex types (nested interfaces)]]
-		- [[#Fields#Constants|Constants]]
-		- [[#Fields#Default values|Default values]]
-		- [[#Fields#Arrays|Arrays]]
-			- [[#Arrays#Static array (array with fixed length)|Static array (array with fixed length)]]
-			- [[#Arrays#Unbounded dynamic array (array without length)|Unbounded dynamic array (array without length)]]
-			- [[#Arrays#Bounded dynamic array (array with max length)|Bounded dynamic array (array with max length)]]
-			- [[#Arrays#Arrays of complex types|Arrays of complex types]]
-			- [[#Arrays#Arrays of strings|Arrays of strings]]
-		- [[#Fields#Multidimensional arrays|Multidimensional arrays]]
-			- [[#Multidimensional arrays#Fixed-dimensional matrix|Fixed-dimensional matrix]]
-			- [[#Multidimensional arrays#Arbitrary multidimensional matrix|Arbitrary multidimensional matrix]]
-
 ## Related documentation
 
 Already covered in [[Getting started]]:

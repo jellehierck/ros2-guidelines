@@ -26,7 +26,6 @@ Overview of pages and their current status (✅ = done, ❌ = not done, 🏗 = w
 - [[Launch]] 🏗
 - [[Useful Tools]] ❌
 - [[Simulation]] ❌
-- [[Other Topics]] ❌
 
 [[ROS 2 Beginner's Guide/Advanced Topics/index|Advanced Topics]]:
 - [[Services]] ❌
