@@ -1,0 +1,13 @@
+{
+  "types": {
+    "aliases": "aliases",
+    "cssclasses": "multitext",
+    "tags": "tags",
+    "draft": "checkbox",
+    "date": "date",
+    "publish": "checkbox",
+    "created": "date",
+    "modified": "date",
+    "published": "datetime"
+  }
+}
