@@ -9,6 +9,15 @@ created: 2025-05-05
 modified: 2025-05-05
 ---
 
+## Status
+
+**Not done, priority: low**
+- Some useful links are collected.
+- This is a very advanced topic, so people who need this are probably better off researching this on their own.
+- Important to mention the stuff about executors and how to use callback groups (see [[Executors]])
+
+## What to write about
+
 Prerequisite: [[Services]]
 
 Actions:

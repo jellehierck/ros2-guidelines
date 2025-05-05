@@ -1,3 +1,8 @@
 {
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Nakama"
+  ],
+  "spellcheck": false,
+  "tabSize": 2
 }

@@ -9,6 +9,15 @@ created: 2025-05-05
 modified: 2025-05-05
 ---
 
+## Status
+
+**Not done, priority: high**
+- Only useful links are collected.
+- Idea is to define topics but also publishers / subscribers.
+- Need to define how in-depth we will take this, e.g. include remapping? Include QoS? Optimize for speed?
+
+## What to write about
+
 Topics are basically an abstraction level which allows data transfer between programming languages and PCs.
 
 Basics:

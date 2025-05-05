@@ -1,6 +1,6 @@
 ---
 publish: true
-title:
+title: 
 description: 
 permalink: 
 aliases: 
@@ -8,6 +8,14 @@ tags:
 created: 2025-05-05
 modified: 2025-05-05
 ---
+
+## Status
+
+**Not done, priority: medium**
+- Only useful links are collected.
+- I need to define what the aim of this page will be: describing the node graph? How to implement? Or just the concept of nodes?
+
+## What to write about
 
 Basics:
 - <https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Understanding-ROS2-Nodes/Understanding-ROS2-Nodes.html>

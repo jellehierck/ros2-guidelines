@@ -1,7 +1,7 @@
 ---
 publish: true
-title:
-description: 
+title: Advanced Topics
+description: Advanced topics for the ROS 2 beginner's guide.
 permalink: 
 aliases: 
 tags:

@@ -9,6 +9,13 @@ created: 2025-05-05
 modified: 2025-05-05
 ---
 
+## Status
+
+**Not done, priority: high**
+- Useful links are collected.
+- Started on intuition for launch files, but that might be a little overkill. Main focus for a first version should be how to use & commonly used snippets.
+
+## What to write about
 Basics:
 - <https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Launching-Multiple-Nodes/Launching-Multiple-Nodes.html>
 - <https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Launch-Main.html>

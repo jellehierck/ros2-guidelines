@@ -1,10 +1,10 @@
 ---
 publish: true
-title:
-description: 
+title: Libraries
+description: Commonly used libraries for ROS 2.
 permalink: 
 aliases: 
-tags: 
+tags:
 created: 2025-05-05
 modified: 2025-05-05
 ---

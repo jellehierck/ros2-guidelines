@@ -9,6 +9,19 @@ created: 2025-05-05
 modified: 2025-05-05
 ---
 
+## Status
+
+**Not done, priority: high**
+
+- Strategies for git are described.
+- How to organize packages must still be described.
+- How to initialize a package must still be described & examples must be written.
+- **Important**: how to handle dependencies, reuse documentation from:
+	- <https://bitbucket.org/ctw-bw/ros-2-guidelines/src/main/README.md>
+	- <https://bitbucket.org/ctw-bw/ros-2-guidelines/src/main/Managing%20non-ROS%20Python%20dependencies.md>
+
+## Stuff to write about
+
 - Git inside each package?
 - How to organise ROS 2 packages (what goes in what package, how much stuff, etc.)
     - Give example of `nakama_handeye`?

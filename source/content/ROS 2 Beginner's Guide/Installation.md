@@ -9,6 +9,14 @@ created: 2025-05-05
 modified: 2025-05-05
 ---
 
+## Status
+
+**priority: low**
+
+- Useful links collected, but no story created yet. Might remove in favour of the official tutorials.
+- If this page is kept, then [[Getting started]] also needs to be updated with the install instructions BEFORE the tutorials are followed.
+- Requires additional information for Docker (depends on JP and Jelmer).
+
 TODO: Read <https://automaticaddison.com/ros-2-architecture-overview/>
 
 ## Installation
