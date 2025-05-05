@@ -1,5 +1,7 @@
 # Obsidian / Quartz / GitHub Pages Template
 
+[![Page Deployment](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml/badge.svg)](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml)
+
 Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
 
 Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
