@@ -23,7 +23,8 @@ export const defaultContentPageLayout: PageLayout = {
     Component.Search(),
     Component.Darkmode(),
     Component.DesktopOnly(Component.Explorer({
-      folderClickBehavior: "link"
+      folderClickBehavior: "link",
+      filterFn: undefined,  // Remove filter to show all files and folders
     })),
   ],
   right: [
