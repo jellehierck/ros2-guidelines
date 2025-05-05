@@ -1,7 +1,6 @@
 ---
-title: My GitHub Pages Notebook!
+title: ROS 2 Guidelines
 ---
-
 Hello world!
 
 Write some words here!

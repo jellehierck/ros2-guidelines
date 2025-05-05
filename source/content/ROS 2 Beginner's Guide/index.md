@@ -1,0 +1,86 @@
+
+
+## Pages status
+
+Overview of pages and their current status:
+
+- [[Getting started]]
+    - **Done & shared**
+    - Only needs forward reference to next guides after it
+- [[Installation]]
+    - **Not done, priority: low**
+    - Useful links collected, but no story created yet. Might remove in favour of the official tutorials.
+    - If this page is kept, then [[Getting started]] also needs to be updated with the install instructions BEFORE the tutorials are followed.
+    - Requires additional information for Docker (depends on JP and Jelmer).
+- [[Workspaces]]
+    - **Nearly done, priority: medium**
+    - Tasks to do are mostly creating additional images to make concepts clearer.
+- [[Packages]]
+    - **Not done, priority: high**
+    - Strategies for git are described.
+    - How to organize packages must still be described.
+    - How to initialize a package must still be described & examples must be written.
+    - **Important**: how to handle dependencies, reuse documentation from:
+        - <https://bitbucket.org/ctw-bw/ros-2-guidelines/src/main/README.md>
+        - <https://bitbucket.org/ctw-bw/ros-2-guidelines/src/main/Managing%20non-ROS%20Python%20dependencies.md>
+- [[Nodes]]
+    - **Not done, priority: medium**
+    - Only useful links are collected.
+    - I need to define what the aim of this page will be: describing the node graph? How to implement? Or just the concept of nodes?
+- [[Topics]]
+    - **Not done, priority: high**
+    - Only useful links are collected.
+    - Idea is to define topics but also publishers / subscribers.
+    - Need to define how in-depth we will take this, e.g. include remapping? Include QoS? Optimize for speed?
+- [[Interfaces]]
+    - **Done, needs to be shared**
+- [[Parameters]]
+    - **Not done, priority: high**
+    - Only useful links are collected.
+    - This page will benefit greatly from cookbook-like snippets to put into own nodes.
+- [[Launch]]
+    - **Not done, priority: high**
+    - Useful links are collected.
+    - Started on intuition for launch files, but that might be a little overkill. Main focus for a first version should be how to use & commonly used snippets.
+- [[Useful Tools]]
+    - **Not done, priority: low**
+    - Useful links are collected, I also have a list of tools that are woth mentioning.
+    - This page could probably be fairly short, with links to each tool & only a short description of what it does.
+    - Perhaps the most commonly used tools can get command line examples of how to use them.
+- [[Robot Description]]
+    - **Not done, priority: low**
+    - Though fundamental to most robot operations, this is probably too advanced for most people.
+    - Initial focus should be a baseline understanding of what the robot description is, and how the TF2 library works at the most basic level.
+    - Perhaps also list some tools to view robot model & TF2 trees (links to [[Useful Tools]]).
+    - Advanced stuff includes how to create & manage robot descriptions and TF2 stuff, but that is very specific and probably only useful to some people.
+- [[Simulation]]
+    - **Not done, priority: low**
+    - No useful links collected at all.
+    - I have not used simulation at all so I don't know much about this, espcially in the context of the Franka arm.
+    - Perhaps this can be outsourced to someone else.
+- [[Services]]
+    - **Not done, priority: low**
+    - Some useful links are collected.
+    - I have a lot of experience with services now, so I could probably write a lot about them.
+    - Use cases for people is quite limited: most people can get away with some dumb topic constructions which work fine and are therefore not dumb.
+    - Important to mention the stuff about executors and how to use callback groups (see [[Executors]])
+- [[Actions]]
+    - **Not done, priority: low**
+    - Some useful links are collected.
+    - This is a very advanced topic, so people who need this are probably better off researching this on their own.
+    - Important to mention the stuff about executors and how to use callback groups (see [[Executors]])
+- [[Testing]]
+    - **Not done, priority: very low**
+    - This is probably the least urgent part for our research group. I also have no experience with automated testing in ROS.
+- [[ROS 2 Control]]
+    - **Not done, priority: medium**
+    - No useful links are collected.
+    - `ros2_control` is kind of a beast, but we could include some pointers on how the structure works & specific tips for Franka controllers
+    - Also include reference to controller generator package using `ros2-pkg-create`
+- [[Navigation 2]]
+    - **Not done, priority: very low**
+    - Not super relevant as we have no mobile robots
+- [[MoveIt]]
+    - **Not done, priority: very low**
+    - Not super relevant for us probably, only when a student needs to do some additional path planning stuff.
+- [[Other Topics]]
