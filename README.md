@@ -1,25 +1,44 @@
-# Obsidian / Quartz / GitHub Pages Template
+# ROS 2 Guidelines
 
-[![Page Deployment](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml/badge.svg)](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml)
+[![Page Deployment](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml/badge.svg)](<https://github.com/jellehierck/ros2-guidelines/actions/>
+workflows/ci.yaml)
 
-Deployed URL: https://defenderofbasic.github.io/obsidian-quartz-template
+Deployed website: <https://jellehierck.github.io/ros2-guidelines/>
 
-Template for hosting your Obsidian notebook on GitHub pages with CI deployment. 
+This repository contains a website with information on ROS 2 and additional guidelines, originally created for the [Nakama Robotics Lab](https://www.utwente.nl/en/et/be/research/nakama_robotics_lab/) at the University of Twente.
 
-## Basic setup
+The website contents are created in [Obsidian](https://obsidian.md/), and transformed to GitHub Pages using [Quartz](https://quartz.jzhao.xyz/) and the [obsidian-quartz-template](https://github.com/DefenderOfBasic/obsidian-quartz-template).
 
-Full tutorial with screenshots & videos: https://dev.to/defenderofbasic/host-your-obsidian-notebook-on-github-pages-for-free-8l1. 
+## Edit page contents with Obsidian
 
-It's basically (1) fork this (2) go to repo's "Settings" > "Pages", Under "Build and Deployment" select GitHub Actions. Then go to "Actions" and enable GitHub actions for your fork. Edit the pages in [source/content](./source/content) with Obsidian or any text editor. It generates HTML using [Quartz](https://github.com/jackyzha0/quartz). To generate the HTML locally, run `npx quartz build --serve` in `./source/`
+To change page contents, you need to open the page contents in Obsidian. These steps assume you can push to the repository (or open an issue/PR!)
 
-## Raw HTML pages
+Some default plugins are shipped with the page contents to spell check and lint the markdown files. They should be enabled by default when you open the vault in Obsidian.
 
-There is a [source/raw_html](./source/raw_html) folder that gets copied into the build folder in CI. This lets you host arbitrary HTML outside of quartz. Example: https://defenderofbasic.github.io/obsidian-quartz-template/raw-html-test.html
+1. Clone this repository to your own PC. Ensure you are on the `main` branch.
+2. Open the folder `source/contents/` as Obsidian vault using [the official instructions](https://help.obsidian.md/manage-vaults#Create+vault+from+an+existing+folder).
+3. Make your edits.
+4. Commit and push the changes.
+5. Wait until the deployment CI action is finished (typically takes <1 minute).
+6. See your changes in the deployed website.
 
-I made the "raw HTML" option for people who are generating HTML UI's with Claude/ChatGPT but want to tweak them/host them themselves. Or make a personal archive of web pages, etc.
+## Edit the website
 
-## Further customization
+For any adjustments except [page contents](#edit-page-contents-with-obsidian), you need to edit files in the repository with another editor than Obsidian. You could e.g. want to add [Raw HTML pages](https://github.com/DefenderOfBasic/obsidian-quartz-template?tab=readme-ov-file#raw-html-pages) or [Further customize Quartz](https://github.com/DefenderOfBasic/obsidian-quartz-template?tab=readme-ov-file#further-customization).
 
-> Quartz is meant to be extremely configurable, even if you don’t know any coding. Most of the configuration you should need can be done by just editing quartz.config.ts or changing the layout in quartz.layout.ts.
+1. Clone this repository to your own PC. Ensure you are on the `main` branch. These steps assume you can push to the repository (or open an issue/PR!)
+2. Open the repository root in your favourite editor, such as Visual Studio Code.
+3. Make your edits.
+4. Commit and push the changes.
+5. Wait until the deployment CI action is finished (typically takes <1 minute).
+6. See your changes in the deployed website.
 
-https://quartz.jzhao.xyz/configuration
+## Authors
+
+The guidelines contents were created by:
+
+- Jelle Hierck (<j.j.hierck@student.utwente.nl>)
+
+## Acknowledgment
+
+This repository is forked from <https://github.com/DefenderOfBasic/obsidian-quartz-template> and was created by [DefenderOfBasic](https://github.com/DefenderOfBasic). See the original repository for more information!

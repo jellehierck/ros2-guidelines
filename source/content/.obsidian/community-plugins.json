@@ -1,3 +1,5 @@
 [
-  "obsidian-git"
+  "obsidian-languagetool-plugin",
+  "obsidian-linter",
+  "obsidian-custom-attachment-location"
 ]

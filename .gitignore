@@ -1,1 +1,2 @@
-.trash/*
+# Ignore vscode settings
+.vscode/

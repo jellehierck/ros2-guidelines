@@ -1,0 +1,10 @@
+{
+  "serverUrl": "https://api.languagetool.org",
+  "urlMode": "standard",
+  "glassBg": false,
+  "shouldAutoCheck": true,
+  "autoCheckDelay": 3000,
+  "pickyMode": false,
+  "staticLanguage": "en-GB",
+  "ruleOtherDisabledRules": "CONSECUTIVE_SPACES,WHITESPACE_RULE,TO_DO_HYPHEN,HYPHEN_TO_EN,POSSIBILTY_POSSIBLE,BRE_STYLE_OXFORD_SPELLING,UNLIKELY_OPENING_PUNCTUATION,EN_QUOTES,REPETITIONS_STYLE"
+}

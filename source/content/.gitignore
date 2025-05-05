@@ -1,0 +1,19 @@
+
+# All Obsidian workspace settings, including plugin and hotkey configurations
+# .obsidian/*
+
+# Ignore Obsidian appearance to adhere to default appearance
+.obsidian/appearance.json
+
+# Ignore workspace state and cache
+.obsidian/workspace*.json
+
+# Ignore plugin-specific data
+# .obsidian/plugins/*/data.json
+
+# Exclude Untitled Notes
+Untitled*
+
+# Cache and temporary files
+.trash/
+.DS_Store
