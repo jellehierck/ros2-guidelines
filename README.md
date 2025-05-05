@@ -18,9 +18,25 @@ Some default plugins are shipped with the page contents to spell check and lint 
 1. Clone this repository to your own PC. Ensure you are on the `main` branch.
 2. Open the folder `source/contents/` as Obsidian vault using [the official instructions](https://help.obsidian.md/manage-vaults#Create+vault+from+an+existing+folder).
 3. Make your edits.
-4. Commit and push the changes.
-5. Wait until the deployment CI action is finished (typically takes <1 minute).
-6. See your changes in the deployed website.
+4. Update the [Tags](#tags).
+5. Commit and push the changes.
+6. Wait until the deployment CI action is finished (typically takes <1 minute).
+7. See your changes in the deployed website.
+
+### Tags
+
+The Obsidian Linter plugin is set up to automatically include YAML tags to the page to control metadata. The following tags are added:
+
+```yaml
+publish:                # Set to false to not publish the page yet
+title:                  # Alternative title for the page. If not set, the note title is used.
+description:            # Short description of the page contents.
+permalink:              # Create a permalink for this page relative to the page base, e.g. /fixed/path
+aliases:                # Create tags for the page
+tags:                   # Create tags for the page
+created:                # When the page was created (updated automatically)
+modified:               # When the page was last modified (updated automatically)
+```
 
 ## Edit the website
 
