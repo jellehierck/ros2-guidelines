@@ -1,9 +1,6 @@
 # ROS 2 Guidelines
 
-[![Page Deployment](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml/badge.svg)](<https://github.com/jellehierck/ros2-guidelines/actions/>
-workflows/ci.yaml)
-
-Deployed website: <https://jellehierck.github.io/ros2-guidelines/>
+![Page Deployment](https://github.com/jellehierck/ros2-guidelines/actions/workflows/ci.yaml/badge.svg) on website: <https://jellehierck.github.io/ros2-guidelines/>
 
 This repository contains a website with information on ROS 2 and additional guidelines, originally created for the [Nakama Robotics Lab](https://www.utwente.nl/en/et/be/research/nakama_robotics_lab/) at the University of Twente.
 
