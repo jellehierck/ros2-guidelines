@@ -1,3 +1,13 @@
+---
+publish: true
+title:
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
 
 TODO: Read <https://automaticaddison.com/ros-2-architecture-overview/>
 

@@ -1,3 +1,14 @@
+---
+publish: true
+title:
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
+
 CLI
 - <https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools.html>
 - <https://docs.ros.org/en/humble/Tutorials/Beginner-Client-Libraries/Getting-Started-With-Ros2doctor.html>

@@ -1,3 +1,14 @@
+---
+publish: true
+title:
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
+
 A **workspace** is a structured directory containing ROS 2 packages. It includes the **source code**, the **built programs** and **installation data** for all packages inside it. The directory structure is necessary to use the build tool Colcon.
 
 A workspace usually has a general name to identify which packages are in there (e.g. `nakama` for all custom Nakama packages), suffixed with `_ws` to indicate it is a workspace, e.g. `vlm_ws` or `nakama_franka_ws`. This is not enforced but good practice.

@@ -1,3 +1,14 @@
+---
+publish: true
+title:
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
+
 Topics are basically an abstraction level which allows data transfer between programming languages and PCs.
 
 Basics:

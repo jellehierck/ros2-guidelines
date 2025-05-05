@@ -1,3 +1,14 @@
+---
+publish: true
+title:
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
+
 The ROS 2 Beginner's Guide will walk you through ROS 2 and its capabilities.
 
 ROS 2 is immense and easy to get lost in, even with the extensive documentation and tutorials on the official website (<https://docs.ros.org/en/humble/index.html>). Even so, the official tutorials teach some concepts and practises which are not ideal for developing robotic applications at Nakama (and in general in our unbiased opinion). These guidelines will point those things out and explain how we want to approach them instead.

@@ -1,3 +1,14 @@
+---
+publish: true
+title:
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
+
 - Git inside each package?
 - How to organise ROS 2 packages (what goes in what package, how much stuff, etc.)
     - Give example of `nakama_handeye`?

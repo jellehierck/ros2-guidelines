@@ -1,3 +1,14 @@
+---
+publish: false
+title: 
+description: 
+permalink: 
+aliases: 
+tags: 
+created: 2025-05-05
+modified: 2025-05-05
+---
+
 Basics:
 - <https://docs.ros.org/en/humble/Tutorials/Beginner-CLI-Tools/Launching-Multiple-Nodes/Launching-Multiple-Nodes.html>
 - <https://docs.ros.org/en/humble/Tutorials/Intermediate/Launch/Launch-Main.html>
@@ -29,9 +40,9 @@ You cannot "start" launch actions using regular Python code, e.g. using a loop o
 | -------------------------------- | ----------------------------- | ----------------------------------------------------------------------- |
 | Conditionally execute some code  | `if <condition>:`             | `condition=IfCondition(<substitution>)`                                 |
 | Conditionally skip some code     | `if not <condition>`:<br><br> | `condition=UnlessCondition(<substitution>)`                             |
-| Define command line arguments    | ...                           | `DeclareLaunchArgument()`                                               |
+| Define command line arguments    | …                           | `DeclareLaunchArgument()`                                               |
 | Call with command line arguments | python3 -m <module> arg1 arg2 | ros2 launch <pkg> <launch.py> arg1:=value arg2:=value                   |
-| Import code from other module    | import ...                    | `IncludeLaunchDescription()` (ideally inside a `GroupAction()`)         |
+| Import code from other module    | import …                    | `IncludeLaunchDescription()` (ideally inside a `GroupAction()`)         |
 | Remap topics                     | -                             | `remappings={"old": new"}.items()` or `SetRemap` (inside `GroupAction`) |
 | Wait for some time               | time.sleep()                  | TimerAction or RosTimer                                                 |
 | Wait until other stuff is done   | -                             | RegisterEventHandler(event_handler=OnProcessExit())                     |
