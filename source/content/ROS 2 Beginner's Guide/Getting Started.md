@@ -6,7 +6,7 @@ permalink:
 aliases: 
 tags: 
 created: 2025-05-05
-modified: 2025-05-05
+modified: 2025-05-06
 ---
 
 The ROS 2 Beginner's Guide will walk you through ROS 2 and its capabilities.
@@ -21,7 +21,7 @@ We start with a set of suggested readings in a suggested order.
 
 This list is heavily inspired by [Mike Ferguson's ROS 2 Cookbook](https://github.com/mikeferguson/ros2_cookbook/blob/main/pages/getting_started.md).
 
-1. Read [[00 Notes/thesis/ros/ROS 2 guidelines for Nakama/ROS 2 Beginner's Guide/Installation|Installation]] to install ROS 2 on your machine.
+1. Read [[Installation]] to install ROS 2 on your machine.
 
 2. Read all pages of the [Basic Concepts](https://docs.ros.org/en/humble/Concepts/Basic.html) from the official website. They will introduce you to the basic concepts needed to understand the later steps. Don't worry if you do not understand part or if you cannot see how they integrate: later pages of the Beginner's Guide will explain in more detail and link back to the Basic Concepts.
     - Also read [Topics vs Services vs Actions](https://docs.ros.org/en/humble/How-To-Guides/Topics-Services-Actions.html)

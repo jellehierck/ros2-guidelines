@@ -2,5 +2,6 @@
   "obsidian-languagetool-plugin",
   "obsidian-linter",
   "obsidian-custom-attachment-location",
-  "emoji-shortcodes"
+  "emoji-shortcodes",
+  "obsidian-git"
 ]
